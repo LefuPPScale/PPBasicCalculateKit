@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "PPBasicCalculateKit"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of PPBasicCalculateKit."
 
 
@@ -35,7 +35,7 @@ spec.subspec 'abyonCalculate' do |bk|
    bk.vendored_frameworks = 'PPBasicCalculateKit/abyonCalculate/abyonCalculate.xcframework'
  end
 
-# spec.static_framework = true
+spec.static_framework = true
 
 # spec.dependency 'PPBaseKit'
 
