@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   
   spec.exclude_files = "Classes/Exclude"
 
-  spec.resources  = "PPBasicCalculateKit/PPBasicCalculateKit/Resources/**/*.{json}"
+  # spec.resources  = "PPBasicCalculateKit/PPBasicCalculateKit/Resources/**/*.{json}"
   spec.resource_bundles = { "PPBasicCalculateKit" => "PPBasicCalculateKit/PPBasicCalculateKit/Resources/**/*.xcprivacy" }
 
   spec.vendored_libraries = 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBh1BodyComposition.a', 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBhBodyComposition.a', 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBh2BodyComposition.a', 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBh3BodyComposition.a', 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBh4BodyComposition.a', 'PPBasicCalculateKit/PPBasicCalculateKit/Kit/Calculate/test/libBh5BodyComposition.a'
