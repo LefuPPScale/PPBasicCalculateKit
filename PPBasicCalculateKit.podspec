@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "12.0"
 
-  spec.source       = { :git => "git@gitee.com:shenzhen-lfscale/calculate-kit-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:LefuPPScale/PPBasicCalculateKit.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "PPBasicCalculateKit/PPBasicCalculateKit/**/*.{h,m}"
   
