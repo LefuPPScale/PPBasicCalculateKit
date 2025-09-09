@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "PPBasicCalculateKit"
-  spec.version      = "1.2.13"
+  spec.version      = "1.0.0"
   spec.summary      = "A short description of PPBasicCalculateKit."
 
 
